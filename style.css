@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+  --cor-de-fundo: #000000;
+  --cor-de-texto: #f6f6f6;
+  --cor-de-texto-destaque: #22D4FD;
+  --cor-de-hover:#262626;
+  --fonte-destaque: "Krona One", system-ui;
+  --fonte-secundaria: "Montserrat", system-ui;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -22,8 +31,13 @@ body {
   font-family: "Montserrat", system-ui;
 }
 
-.titulo-destaque {
-  color: #22D4FD;
+.cabecalho {
+  padding: 2% 0% 0% 15%;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 80px;
 }
 
 .apresentacao {
@@ -52,6 +66,10 @@ body {
 .apresentacao__conteudo__texto {
   font-size: 1.2rem; /* tamanho de fonte responsivo */
   /* font-family: "Montserrat", system-ui; */
+}
+
+.titulo-destaque {
+  color: #22D4FD;
 }
 
 .apresentacao__conteudo__links {
